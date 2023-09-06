@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: Arima, monospace;
+  font-weight: light; */
+}
+/* DELETE LATER FOR EASE OF HTML */
+img{
+  width: 100px;
+ 
+}
+/* ------------------------- */
+/* FONT SETTINGS */
+h2{
+  font-family: Borel, monospace;
+  color:#bb7026;
+  padding-top: 0.6rem;
+}
+h3{
+  font-style: light;
+}
+h4{
+  font-weight: light;
+}
+a{
+  font-family: Arima, monospace;
+}
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  background-color: #e9e5aa;
+  width: 100%;
+  height:5rem;
+}
+
+.logo{
+  width: 3rem;
+  margin: 0.5rem;
+}
+
+header h2{
+  font-size: 2rem;
+  padding-top: 2.2rem;
+}
+
+nav{
+ margin: 0.5rem; 
+}
+nav ul{
+  display: flex;
+  list-style: none;
+}
+nav li{
+  margin: 0.15rem;
+}
+nav a{
+  text-decoration: none;
+  background-color: #d6d191;
+  padding:0.75rem;
+  border-radius: 0.1rem;
+  color: rgb(131, 120, 232);
+}
+
+nav a:hover{
+  background-color: #faf5b4;
+}
+
+/* -------INFORMATION SECTION-------- */
+.intro{
+  padding-top: 5rem;
+  background-image:url('')
+  background-color: red;
+}
+.section-title{
+  display: flex;
+  justify-content: center;
+}
+.section-title h2{
+  margin:auto 0.2em auto 0.2em;
+}
+.strikethrough {
+  text-decoration: line-through;
+}

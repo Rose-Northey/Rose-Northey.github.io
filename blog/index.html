@@ -1,9 +1,85 @@
-<html>
-  <head>
-    <title>My blog</title>
-  <body>
-    <h1>Kia ora Taiao! (Hello World!)</h1> 
-    <p> This is the beginning of my website home page.</p>
-    <p> It will eventually contain a list of links to all my blogs. </p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles/index.css" rel="stylesheet">
+  <link href="styles/fonts.css" rel="stylesheet">
+  <title>Rose Blog</title>
+</head>
+<body>
+
+
+
+
+
+
+<!-- Add header -->
+  <header>
+    <img src="images/logo.png" class="logo">
+    <h2>Rose's Blog</h2>
+    <nav>
+      <ul>
+        <li class="nav-button"><a href="#blog">Blog</a></li>
+        <li class="nav-button"><a href="#gallery">Gallery</a></li>
+        <li class="nav-button"><a href="hire.html">Hire</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- intro Section -->
+  <section id="intro" class="intro">
+    
+    <img class="intro-left" src="Images/Rose.png">
+    
+    <div class="intro-right">
+      <div class="opaque-text-box">
+        <h3 class="quote">"I chose to study software because although I love to make art, I also love to make money!"</h3>
+        <h4 class="italics">Rose Northey</h4>
+      </div>
+      <button>
+        <a href="hire.html" title="go on, do it.">Hire that Rose!</a>
+      </button>
+    </div>
+  </section>
+
+<!-- Blog Section -->
+<section id="blog" class="blog">
+  <div class="section-title">
+    <h2>Blog </h2>
+    <h2 class="strikethrough"> Articles</h2>
+    <h2> Moneyicles</h2>
+  </div>
+  <h4>In order to re-enter the world of stationary cubpoards as a software developer, Rose must first discover who she really is and also she must learn to code.</h4>
+  <div class="moneyicle carousel">
+    <div class="thumbnail">
+      <h3>My Values</h3>
+      <img src="Images/frida.jpg">
+    </div>
+    <div class="thumbnail">
+      <h3>Sprint 2</h3>
+      <img src="Images/sunflowers.jpg">
+    </div>
+    <div class="thumbnail">
+      <h3>Sprint 3</h3>
+      <img src="Images/tree.jpg">
+    </div>
+  </div>
+</section>
+  
+<!-- Gallery Section-->
+<section id="gallery" class="gallery">
+  <h2 class="section-title">Gallery</h2>
+  <figure class="photo-frame">
+    <img src="Images/Mural.jpg">
+    <figcaption><p>Rose doing something unrelated to programming.</p></figcaption>
+  </figure>
+</section>
+  
+<footer>
+  <p>©Rose Northey - Standing Inks Limited</p>
+</footer>
+
+
+</body>
 </html>
