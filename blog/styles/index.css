@@ -3,11 +3,20 @@
   margin: 0;
   padding: 0;
   font-family: Arima, monospace;
-  font-weight: light; */
+  font-weight: light; 
 }
+
 a{
   text-decoration:none;
 }
+
+.under-header{
+  padding-top: 5rem;
+}
+
+/* img{
+  height:150px;
+} */
 
 /* ------------------------- */
 /* FONT SETTINGS */
@@ -74,13 +83,12 @@ nav a:hover{
   background-color: #faf5b4;
 }
 
-
-
+ 
 
 
 /* -------INFORMATION SECTION-------- */
 .intro{
-  padding-top: 5rem;
+
   background-image:url('background.jpg');
   background-size: cover;
   background-position: center;
@@ -233,6 +241,6 @@ footer{
   align-items: center;
 }
 
-p{
-  /* background-color: #bb7026; */
+.blog-entry img{
+  height:150px;
 }
