@@ -198,6 +198,23 @@ button a{
 /* ------ Gallery Section ------ */
 
 .gallery{
-  background-color: #d6d191;
+  background-color: #d6d19177;
   padding: 1rem 2rem 2rem 2rem;
+}
+
+.picture-gallery{
+  display:flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.photo-frame{
+  width:60%;
+  background-color: #d6d191;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.photo-frame img{
+  width:100%;
 }
