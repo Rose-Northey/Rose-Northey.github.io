@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* font-family: Arima, monospace;
+  font-family: Arima, monospace;
   font-weight: light; */
 }
 a{
@@ -217,4 +217,26 @@ button a{
 }
 .photo-frame img{
   width:100%;
+}
+
+.gallery p{
+  padding: 1rem;
+}
+
+
+
+
+
+
+/* ----------- Footer ------------- */
+
+footer{
+  padding: 2rem;
+  height:5rem;
+  display: flex;
+  align-items: center;
+}
+
+p{
+  /* background-color: #bb7026; */
 }
