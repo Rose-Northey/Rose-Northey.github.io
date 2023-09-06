@@ -209,11 +209,11 @@ button a{
 }
 
 .photo-frame{
-  width:60%;
   background-color: #d6d191;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  max-width: 350px;
 }
 .photo-frame img{
   width:100%;
