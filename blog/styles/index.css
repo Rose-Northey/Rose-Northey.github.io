@@ -17,7 +17,10 @@
   padding: 2rem;
  }
 
-
+ article{
+  padding:2rem;
+  text-align: center;
+ }
 
 
 /* _________________________________________________ */
@@ -42,7 +45,25 @@ a{
   text-decoration:none;
 }
 
-
+.splash-title{
+  background-image:url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:2rem;
+  margin-top:2rem;
+}
+.splash-title h1{
+  font-size:3rem;
+  color:white;
+  text-align: center;
+  background-color: #769ca8cc;
+  border: solid white 1pt;
+  padding:0 0.5em 0 0.5em;
+}
 
 
 /* _________________________________________________ */
@@ -87,10 +108,7 @@ nav a:hover{
  
 
 
-
-
-
-
+/* LANDING PAGE */
 /* _________________________________________________ */
 /* -------INFORMATION SECTION-------- */
 .intro{
@@ -250,6 +268,46 @@ footer{
   align-items: center;
 }
 
-.blog-entry img{
-  height:150px;
+
+
+
+
+
+
+
+
+
+/* _________________________________________________ */
+/* Blog Entries */
+article.odd{
+  background-color: #bb702633;
 }
+
+article.even{
+  background-color: #97c4d333;
+}
+
+.blog-entry ul{
+  margin:1em;
+}
+
+.blog-entry li{
+  text-align:left;
+  text-justify: distribute;
+  margin: 1em;
+ }
+ .blog-entry article h2{
+  margin-bottom:-0.6em;
+ }
+ .blog-entry h4{
+  margin-bottom: 1.3rem;;
+ }
+
+ .blog-entry img{
+  max-height: 150px;
+ }
+
+ article{
+  max-width: 1000px;
+  text-align: center;
+ }
