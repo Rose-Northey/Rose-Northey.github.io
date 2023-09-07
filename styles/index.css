@@ -196,6 +196,7 @@ button a{
   width:15rem;
   background-color: #97c4d3;
   margin: 1rem;
+  padding:1rem;
   display: flex;
   flex-direction:column;
 }
@@ -206,6 +207,7 @@ button a{
   align-items: center;
   aspect-ratio: 1 / 1;
 }
+
 .carousel img{
   width: 12rem;
   opacity:0.8;
