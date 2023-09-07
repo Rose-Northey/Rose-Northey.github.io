@@ -279,11 +279,11 @@ footer{
 
 /* _________________________________________________ */
 /* Blog Entries */
-article.odd{
+.odd{
   background-color: #bb702633;
 }
 
-article.even{
+.even{
   background-color: #97c4d333;
 }
 
