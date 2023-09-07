@@ -273,6 +273,7 @@ footer{
   height:5rem;
   display: flex;
   align-items: center;
+  background-color: antiquewhite;
 }
 
 
@@ -312,7 +313,7 @@ footer{
   margin-bottom: 1.3rem;;
  }
 
- .blog-entry img{
+ .edith{
   max-height: 150px;
  }
 
@@ -325,9 +326,28 @@ footer{
   max-width: 800px;
  }
 
+
+
+ /* Technical Blog */
  .fly{
   position:fixed;
   top:95px;
   left: 50px;
   z-index:10;
+ }
+
+ .code{
+  width: 200px;
+  margin-top:2rem;
+ }
+
+ div img.code1{
+  height:300px;
+  margin-bottom: 1rem;
+ }
+
+
+ .technical-blog img{
+  max-height:150px;
+  max-width:100%;
  }

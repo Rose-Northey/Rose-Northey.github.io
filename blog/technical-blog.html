@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="../styles/main.css" rel="stylesheet">
-  <link href="../styles/fonts.css" rel="stylesheet">
-  <title>Rose Blog</title>
-</head>
-<body>
-<!-- Add header -->
-  <header>
-    <h2> Blog Moneyicles</h2>
-    <nav>
-      <ul>
-        <li class="nav-button"><a href="../index.html">Home</a></li>
-        <li class="nav-button"><a href="../index.html#gallery">Gallery</a></li>
-        <li class="nav-button"><a href="hire.html">Hire</a></li>
-      </ul>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles/main.css" rel="stylesheet">
+    <link href="../styles/fonts.css" rel="stylesheet">
+    <title>Rose Blog</title>
+  </head>
+  <body class="technical-blog">
+    <!-- Add header -->
+      <header>
+        <h2> Blog Moneyicles</h2>
+        <nav>
+          <ul>
+            <li class="nav-button"><a href="../index.html">Home</a></li>
+            <li class="nav-button"><a href="../index.html#gallery">Gallery</a></li>
+            <li class="nav-button"><a href="hire.html">Hire</a></li>
+          </ul>
+        </nav>
+      </header>
 
 
 
@@ -27,81 +27,81 @@
 
 
 
-<!-- Blog Entry -->
-<section class="blog-entry under-header">
-    <div class="splash-title">
-    <h1>Sprint 2 - Technical Blog</h1>
-    </div>
+    <!-- Blog Entry -->
+    <section class="blog-entry under-header">
+        <div class="splash-title">
+        <h1>Sprint 2 - Technical Blog</h1>
+        </div>
 
 
 
 
 
 
-    <!-- FIRST TOPIC -->
-    <article class="odd">
-      <div class="text-area">
-        <h2 class="bigger-h2">Using Position</h2>
-        <h4>Turning elements from stones into rhinos, aliens and flies.</h4>
-        <p>You can use the css property ‘position’ to place elements exactly where you want them to go. Position can be used in the following ways:</p>
-        <img src="../styles/sprint2/position-all.png" class="code1">
-        <p>When you use ‘position’ you can imagine you are turning your element into a stone, a rhino, an alien or a fly. </p>
-    </div>
-    </article>
+        <!-- FIRST TOPIC -->
+        <article class="odd">
+          <div class="text-area">
+            <h2 class="bigger-h2">Using Position</h2>
+            <h4>Turning elements from stones into rhinos, aliens and flies.</h4>
+            <p>You can use the css property ‘position’ to place elements exactly where you want them to go. Position can be used in the following ways:</p>
+            <img src="../styles/sprint2/position-all.png" class="code1">
+            <p>When you use ‘position’ you can imagine you are turning your element into a stone, a rhino, an alien or a fly. </p>
+        </div>
+        </article>
 
-  <!-- SECOND TOPIC -->
-  <article class="even">
-    <div class="text-area">
-      <h2>The Static Stone</h2>
-      <h4>Using position: static;</h4>
-      <img src="../styles/sprint2/stone.jpg">
-      <p>Imagine you have a field of long grass, when there is a stone, the grass grows around it. This is what it means to have the property position:static; . Every element is a stone by default. </p>
-      <img src="../styles/sprint2/s.png" class="code">
-      <p>e.g. We ask static block S to move 3px down from the top. But it doesn’t move. Because it is a stone and cannot hear us. </p>
-    </div>
-  </article>
+      <!-- SECOND TOPIC -->
+      <article class="even">
+        <div class="text-area">
+          <h2>The Static Stone</h2>
+          <h4>Using position: static;</h4>
+          <img src="../styles/sprint2/stone.jpg">
+          <p>Imagine you have a field of long grass, when there is a stone, the grass grows around it. This is what it means to have the property position:static; . Every element is a stone by default. </p>
+          <img src="../styles/sprint2/s.png" class="code">
+          <p>e.g. We ask static block S to move 3px down from the top. But it doesn’t move. Because it is a stone and cannot hear us. </p>
+        </div>
+      </article>
 
-  <!-- THIRD TOPIC -->
-  <article class="odd">
-    <div class="text-area">
-      <h2>The Relative Rhino</h2>
-      <h4>Using position: relative;</h4>
-      <img src="../styles/sprint2/rhino.jpg">
-      <p>Imagine you turn your object into a rhino. Unlike static stones, relative rhinos can move from their original position. When you tell the rhino to move, elements around the rhino must shift in order to make way for the rhino (or else they will be crushed). Because they are so heavy, rhinos also leave an empty space where they were initially standing. </p>
-      <img src="../styles/sprint2/r.png" class="code">
-      <p>e.g. We ask relative block R to move 3px down from the top of its original position. It moves for us! Note that the other elements do not move to fill the space it used to stand in because R is a rhino and has crushed its original position into mud. Nothing may grow there now. </p>
-    </div>
-  </article>
- 
-    <!-- FOURTH TOPIC -->
-    <article class="even">
-      <div class="text-area">
-        <h2>The Absolute Alien</h2>
-        <h4>Using position: absolute;</h4>
-        <img src="../styles/sprint2/alien.jpg">
-        <p>Imagine you turn your object into a teleporting alien. Grass can grow underneath the absolute alien because the alien sits inside a spaceship that hovers. We can tell the alien to teleport anywhere relative to its mother ship The alien’s mother ship is the alien’s closest non-static ancestor (aliens do not recognize stones as ancestors because aliens are racist). </p>
-        <img src="../styles/sprint2/s.png" class="code">
-        <p>e.g. We ask absolute block A to move 10px across from the left. It teleports from its original position as if it were never there. It hovers 3px away from its block R grandparent (notice that it completely ignores the existence of its static mother. Aliens are the worst like that.) We can define how high it flies using Z-index. </p>
-        
-      </div>
-    </article>
-  
-    <!-- FIFTH TOPIC -->
-    <article class="odd">
-      <div class="text-area">
-        <h2>The Fixed Fly</h2>
-        <h4>Using position: fixed;</h4>
-        <img src="../styles/sprint2/fly-grass.jpg">
-        <img class = "fly" src="../styles/sprint2/fly.png">
-        <p>Imagine you turn your object into a fly. Then you take a piece of honey and smear it onto your browser window. The fly leaves its original location as if it were never there. It comes all the way up onto your computer screen to where you put the honey. </p>
-        <img src="../styles/sprint2/f.png" class="code">
-        <p>e.g. We ask fixed block F to move 50px across from the right. It remains at the top of the browser even when we scroll the webpage. We can make the z-index higher to ensure that F is right at the top, hovering over everything or make the z-index lower so that it slips beneath other elements as we scroll. </p>
-      </div>
-    </article>
+      <!-- THIRD TOPIC -->
+      <article class="odd">
+        <div class="text-area">
+          <h2>The Relative Rhino</h2>
+          <h4>Using position: relative;</h4>
+          <img src="../styles/sprint2/rhino.jpg">
+          <p>Imagine you turn your object into a rhino. Unlike static stones, relative rhinos can move from their original position. When you tell the rhino to move, elements around the rhino must shift in order to make way for the rhino (or else they will be crushed). Because they are so heavy, rhinos also leave an empty space where they were initially standing. </p>
+          <img src="../styles/sprint2/r.png" class="code">
+          <p>e.g. We ask relative block R to move 3px down from the top of its original position. It moves for us! Note that the other elements do not move to fill the space it used to stand in because R is a rhino and has crushed its original position into mud. Nothing may grow there now. </p>
+        </div>
+      </article>
+    
+        <!-- FOURTH TOPIC -->
+        <article class="even">
+          <div class="text-area">
+            <h2>The Absolute Alien</h2>
+            <h4>Using position: absolute;</h4>
+            <img src="../styles/sprint2/alien.jpg">
+            <p>Imagine you turn your object into a teleporting alien. Grass can grow underneath the absolute alien because the alien sits inside a spaceship that hovers. We can tell the alien to teleport anywhere relative to its mother ship The alien’s mother ship is the alien’s closest non-static ancestor (aliens do not recognize stones as ancestors because aliens are racist). </p>
+            <img src="../styles/sprint2/a.png" class="code">
+            <p>e.g. We ask absolute block A to move 10px across from the left. It teleports from its original position as if it were never there. It hovers 10px away from the left of its block R grandparent (notice that it completely ignores the existence of its static stone mother. Aliens are the worst like that.) We can define how high it flies using Z-index. </p>
+            
+          </div>
+        </article>
+      
+        <!-- FIFTH TOPIC -->
+        <article class="odd">
+          <div class="text-area">
+            <h2>The Fixed Fly</h2>
+            <h4>Using position: fixed;</h4>
+            <img src="../styles/sprint2/fly-grass.jpg">
+            <img class = "fly" src="../styles/sprint2/fly.png">
+            <p>Imagine you turn your object into a fly. Then you take a piece of honey and smear it onto your browser window. The fly leaves its original location as if it were never there. It comes all the way up onto your computer screen to where you put the honey. </p>
+            <img src="../styles/sprint2/f.png" class="code">
+            <p>e.g. We ask fixed block F to move 50px across from the left. It remains at the top of the browser even when we scroll the webpage. We can make the z-index higher to ensure that F is right at the top, hovering over everything or make the z-index lower so that it slips beneath other elements as we scroll. </p>
+          </div>
+        </article>
 
-<footer>
-  <p>©Rose Northey - Standing Inks Limited</p>
-</footer>
-  
-</body>
+    <footer>
+      <p>©Rose Northey - Standing Inks Limited</p>
+    </footer>
+    
+  </body>
 </html>
