@@ -324,3 +324,10 @@ footer{
  .blog-entry .text-area{
   max-width: 800px;
  }
+
+ .fly{
+  position:fixed;
+  top:95px;
+  left: 50px;
+  z-index:10;
+ }
