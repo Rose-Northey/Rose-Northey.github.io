@@ -288,7 +288,9 @@ article.even{
 }
 
 .blog-entry ul{
-  margin:1em;
+  padding:1em;
+  margin: 1em;
+  border:1px solid black;
 }
 
 .blog-entry li{
@@ -307,7 +309,11 @@ article.even{
   max-height: 150px;
  }
 
- article{
-  max-width: 1000px;
-  text-align: center;
+ .blog-entry article{
+  display: flex;
+  justify-content: center;
+ }
+
+ .blog-entry .text-area{
+  max-width: 800px;
  }
