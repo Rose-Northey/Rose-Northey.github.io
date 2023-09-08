@@ -363,6 +363,13 @@ footer{
   display:flex;
  }
 
+ .two-columns div{
+  width:50%;
+ }
+ .two-columns p{
+color: #70939e;
+ }
+
  .technical-blog img{
   max-height:150px;
   max-width:100%;
