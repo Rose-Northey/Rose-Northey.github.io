@@ -13,14 +13,28 @@
 .under-header{
   padding-top: 5rem;
 }
- section{
-  padding: 2rem;
- }
 
  article{
   padding:2rem;
   text-align: center;
  }
+
+/* _________________________________________________ */
+/* PHONE SETTINGS */
+@media only screen and (max-width:500px){
+  header h2{
+    display:none;
+  }
+ body header{
+    justify-content: right;
+  }
+  .home header{
+    justify-content: space-between;
+  }
+}
+
+
+
 
 
 /* _________________________________________________ */
@@ -54,7 +68,6 @@ a{
   justify-content: center;
   align-items: center;
   padding:2rem;
-  margin-top:2rem;
 }
 .splash-title h1{
   font-size:3rem;
