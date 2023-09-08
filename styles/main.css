@@ -320,7 +320,7 @@ footer{
   margin: 1em;
  }
  .blog-entry article h2{
-  margin-bottom:-0.6em;
+  margin-bottom:-0.3em;
  }
  .blog-entry h4{
   margin-bottom: 1.3rem;;
@@ -359,6 +359,9 @@ footer{
   margin-bottom: 1rem;
  }
 
+.two-columns{
+  display:flex;
+ }
 
  .technical-blog img{
   max-height:150px;
