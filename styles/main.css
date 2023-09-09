@@ -31,6 +31,13 @@
   .home header{
     justify-content: space-between;
   }
+  .text-area .two-columns{
+    display:block;
+   }
+   .text-area .two-columns div{
+    width:100%;
+   }  
+
 }
 
 
@@ -374,3 +381,33 @@ color: #70939e;
   max-height:150px;
   max-width:100%;
  }
+
+.blog-arrows{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+background-color: #d6d191;
+width:100%;
+max-height: 150px;
+max-width: 100%;
+ }
+
+ .blog-arrows a{
+  margin:0.5rem 10% 0 10%;
+  min-width:100px;
+  max-width:200px;
+  width: 30%;
+  opacity:30%
+ }
+ .blog-arrows img{
+  max-height:100%;
+  max-width: 100%;
+ }
+
+ .blog-arrows a:hover{
+ opacity: 50%;
+ }
+
+ .blog-arrows a:active{
+  opacity: 80%;
+  }
