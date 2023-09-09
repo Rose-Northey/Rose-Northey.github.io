@@ -41,6 +41,9 @@
     margin:0.5rem 1rem 0 1rem;
    }
 
+   body .splash-title h1{
+    font-size:2rem;
+   }
 }
 
 
@@ -250,6 +253,10 @@ button a{
 .carousel img:not(:hover){
   width: 80%;
   transition: width 0.5s;
+}
+
+.carousel .thumbnail:hover{
+  background-color: #97c4d3bb;
 }
 
 
