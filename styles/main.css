@@ -21,7 +21,7 @@
 
 /* _________________________________________________ */
 /* PHONE SETTINGS */
-@media only screen and (max-width:500px){
+@media only screen and (max-width:550px){
   header h2{
     display:none;
   }
@@ -37,6 +37,9 @@
    .text-area .two-columns div{
     width:100%;
    }  
+   div.blog-arrows a{
+    margin:0.5rem 1rem 0 1rem;
+   }
 
 }
 
@@ -394,10 +397,10 @@ max-width: 100%;
 
  .blog-arrows a{
   margin:0.5rem 10% 0 10%;
-  min-width:100px;
-  max-width:200px;
+  min-width:80px;
+  max-width:150px;
   width: 30%;
-  opacity:30%
+  opacity:30%;
  }
  .blog-arrows img{
   max-height:100%;
