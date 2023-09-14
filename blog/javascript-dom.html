@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../styles/main.css" rel="stylesheet">
+  <link href="../styles/fonts.css" rel="stylesheet">
+  <title>Rose Blog</title>
+</head>
+<body class="sprint1-blog">
+<!-- Add header -->
+  <header>
+    <h2> Blog Moneyicles</h2>
+    <nav>
+      <ul>
+        <li class="nav-button"><a href="../index.html">Home</a></li>
+        <li class="nav-button"><a href="../index.html#gallery">Gallery</a></li>
+        <li class="nav-button"><a href="hire.html">Hire</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+
+
+
+ 
+
+<!-- Blog Entry -->
+<section class="blog-entry under-header">
+      <div class="splash-title">
+      <h1>Javascript and DOM</h1>
+    </div>
+
+    <!-- FIRST TOPIC -->
+    <article class="odd">
+      <div class="text-area">
+        <h2>HTML and Javascript</h2>
+        <h4>(And Scary Clowns)</h4>
+
+      <img src="../styles/sprint 3/ScaryClown.png">
+        <p>interacting with HTML, CSS, and JavaScript is like being haunted by a scary clown. </p>
+        <br>
+        <ul>
+          <li><p>HTML defines a clown’s basic elements - The presence of facepaint, a fake nose, etc. </p></li>
+          <li><p>CSS defines what makes those elements scary. e.g. the facepaint is blood-like and cracked, the nose is burgundy, etc. </p></li>
+          <li><p>Javascript defines how the scary clown haunts you e.g. does it stand at the foot of your bed smiling at you until you blink? Does it wait until you stick your hand into the InSinkErator and then mouth-breathe your mother’s name into your ear? </p></li>
+        </ul>
+    </article>
+
+    <article class = "even">
+      <div class="text-area">
+        <h2>Control Flow and Loops</h2>
+        <h4>(And Scaring Small Children)</h4>
+        <p>Using control flow means that our code doesn’t have to be performed from top to bottom no matter what like an itemized list. Controlling the flow means that, given certain circumstances, instructions can be repeated, or skipped altogether. </p>
+        <br>
+        <p>For example, imagine that we are a scary clown who wants to haunt a small child. </p> 
+        <br>
+        <div class="two-columns">
+          <div>
+            <h4>We are a clown who DOES NOT use control flow</h4>
+            <p>we might walk up to the child at 2pm while the child is in a room full of people, jump once, disappear, laugh, and then say “one cheeseburger please”. But that wouldn’t be very scary.</p>
+          </div>
+          <div>
+            <h4>We are a clown who DOES know how to use control flow</h4>
+            <p>We might wait until it’s nighttime and the child is trying to sleep. Then we can go to the room above the child’s room and jump up and down repeatedly until the child comes upstairs to investigate. Then we can disappear 0.1s after the child sees us. Then when the child turns their back to leave the room we can laugh softly - yet audibly for the child. And then when we are driving back home and the child is nowhere in sight, we can then order ourselves a celebratory cheeseburger. The scary clown who uses control flow will terrify the child. 
+            </p>
+            <br>
+          </div>
+        </div>
+        <img class="clownCode"; src="../styles/Clown.png">
+        <br>
+        <p>Loops are essential for effective hauntings as well. In the case above the scary clown might not know how many times to jump up and down before each child comes to investigate. In this way adding loops can mean that our instructions are responsive to changing conditions e.g. the jumping will stop once the child has come to investigate.</p>
+      </div>
+    </article>
+
+    <article class="odd">
+      <div class="text-area">
+        <h2>The DOM</h2>
+        <h4>(I promise I am not psychotic)</h4>
+        <br>
+        <p>On your computer you can edit the Javascript, CSS and HTML files separately but the DOM combines all of your files in order to create a combined file. Much of its HTML code and styling is inherited from its .css and .html parents. It is taught how to behave using Javascript. When we change our HTML files, our DOM HTML will change. But when we use javascript to change the DOM’s HTML elements, the parent HTML page will not change. </p>
+        <br>
+        <p>For example, we might have this element in our index.html file:</p>
+        <img class="clownCode" src="../styles/index-dot-html.png">
+        <p>And we might add an additional class to our DOM using javascript. </p>
+        <img class="clownCode" src="../styles/java-invisible.png">
+        <p>This means the HTML code in our DOM will now look more like this:</p>
+        <img class="clownCode" src="../styles/dom.png">
+        <p>Even though the original index.html file looks exactly the same!</p>
+      </div>
+      </article>
+      <article class="even">
+        <div class="text-area">
+            <h2>Arrays Vs. Objects</h2>
+            <h4>(I didn't read the bit about the example needing to be a "regular activity". I want to be clear this was a mistake. I am normal and therefore dressing up as a scary clown is not an every day activity for me.)</h4>
+            <p><strong>Arrays</strong> are a list of things contained in square brackets. </p>
+            <p><strong>Objects</strong> are a list of properties that have both a key and a value in curly brackets.</p>
+            <img class = "clownCode" src="../styles/array-object.png">
+            <p>you can also combine e.g. an object of objects e.g.</p>
+            <img class="clownCode" src="../styles/object-object.png">
+          </div>
+      </article>
+      <article class="odd">
+        <div class="text-area">
+            <h2>Functions</h2>
+            <h4>(I just watched a scary clown movie recently so they are on the brain.)</h4>
+          <p>Functions are a chunk of text which can be used over and over again with minimal effort. Instead of telling the clown to: </p>
+          <br>
+          <em>bend its knees, push off the ground with 900N of force, wait until its feet hit the ground again and then wait 5 seconds and then bend its knees, push off the ground with 900N of force, wait until its feet hit the ground again and then…</em>  
+          <br>
+          <br>
+          <p>When we use functions, we only need to write out how the clown will jump once and then we can call the clownJump() function every time we want the clown to jump. This makes our code cleaner! </p>
+        </div>
+      </article>
+  
+</section>
+<div class="blog-arrows">
+      <a href="emotional-intelligence.html">
+        <img src="../styles/back.png">
+      </a>
+      <a href="te-houtaewa-template.html"">
+        <img src="../styles/forward.png">
+      </a>
+  </div>
+<footer>
+  <p>©Rose Northey - Standing Inks Limited</p>
+</footer>
+  
+</body>
+</html>
