@@ -36,6 +36,8 @@
    }
    .text-area .two-columns div{
     width:100%;
+    margin-top:1rem;
+    padding: auto;
    }  
    div.blog-arrows a{
     margin:0.5rem 1rem 0 1rem;
@@ -43,6 +45,10 @@
 
    body .splash-title h1{
     font-size:2rem;
+   }
+
+   img.short, img.medium, img.long{
+    width:100%;
    }
 }
 
@@ -382,6 +388,7 @@ footer{
 
  .two-columns div{
   width:50%;
+  padding: 1rem;
  }
  .two-columns p{
 color: #70939e;
@@ -421,3 +428,23 @@ max-width: 100%;
  .blog-arrows a:active{
   opacity: 80%;
   }
+
+  /* Java and DOM */
+  .long{
+   max-width: 500px;
+   width:80%;
+   margin: 0.5rem;
+  }
+
+  .medium{
+    max-width: 350px;
+    width:80%;
+    margin: 0.5rem;
+   }
+
+   .short{
+    max-width: 200px;
+    width:80%;
+    margin: 0.5rem;
+   }
+   
