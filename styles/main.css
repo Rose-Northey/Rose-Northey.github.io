@@ -456,5 +456,22 @@ max-width: 100%;
     color: rgb(186, 100, 129);
    }
 
+   .te-whare{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
    
-   
+   .te-whare div{
+    margin: 0.5rem;
+    padding: 1.5rem;
+    max-width:300px;
+   }
+
+   .te-whare .odd{
+    background-color: #fac486;
+  }
+  
+  .te-whare .even{
+    background-color: #c6edf9;
+  }
