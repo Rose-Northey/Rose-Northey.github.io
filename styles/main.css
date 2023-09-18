@@ -394,6 +394,10 @@ footer{
 color: #70939e;
  }
 
+ .two-columns p.amendment{
+  color: rgba(186, 100, 129, 0.66);
+ }
+
  .technical-blog img{
   max-height:150px;
   max-width:100%;
@@ -446,6 +450,10 @@ max-width: 100%;
     max-width: 200px;
     width:80%;
     margin: 0.5rem;
+   }
+
+   .amendment{
+    color: rgb(186, 100, 129);
    }
 
    
