@@ -455,6 +455,10 @@ max-width: 100%;
    .amendment{
     color: rgb(186, 100, 129);
    }
+   
+   article.tapa{
+  background-color: #fbf9db; */
+   }
 
    .te-whare{
     display:flex;
@@ -469,11 +473,11 @@ max-width: 100%;
    }
 
    .te-whare .odd{
-    background-color: #fac486;
+    background-color: #d6d19188;
   }
   
   .te-whare .even{
-    background-color: #c6edf9;
+    background-color: #faf5b488;
   }
 
 
