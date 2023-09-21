@@ -475,3 +475,34 @@ max-width: 100%;
   .te-whare .even{
     background-color: #c6edf9;
   }
+
+
+  /* ____________________________ */
+  /* -----------TABLES----------- */
+  .table {
+    display: grid;
+    grid-template-columns: 2fr 2fr 5fr; /* Three equal-width columns */
+    grid-gap: 1px; /* Gap between grid items */
+    background-color: #000000;
+    padding: 1px;
+}
+
+div.grid-item {
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9e5aa;
+}
+div.grid-item.header {
+    background-color: #d6d191;
+}
+div.grid-item.header h3{
+    font-weight: 400;
+}
+
+/* Style for column headers */
+.header {
+    font-weight: bold;
+}
