@@ -331,16 +331,18 @@ footer{
   background-color: #97c4d333;
 }
 
-.blog-entry ul{
+.blog-entry ul, .blog-entry ol{
   padding:1em;
   margin: 1em;
   border:1px solid black;
+  /* list-style-position: outside; */
 }
 
 .blog-entry li{
   text-align:left;
   text-justify: distribute;
   margin: 1em;
+  /* margin-left: 20px; */
  }
  .blog-entry article h2{
   margin-bottom:-0.3em;
@@ -457,7 +459,7 @@ max-width: 100%;
    }
    
    article.tapa{
-  background-color: #fbf9db; */
+    background-color: #fbf9db; 
    }
 
    .te-whare{
