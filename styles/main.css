@@ -512,3 +512,9 @@ div.grid-item.header h3{
 .header {
     font-weight: bold;
 }
+
+.pre-bootcamp {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #d6d191;
+}
